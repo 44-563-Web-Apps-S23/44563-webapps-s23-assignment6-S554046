@@ -3,7 +3,7 @@
     <head>
         <title>candy_Assignment06</title>
     </head>
- 
+    
 <body>
 
 <h2>Rohit Mangipudi chooses candy </h2>
@@ -38,7 +38,6 @@
 
 
 function updateBox(){
-    
     var toShow = ""
     console.log("Getting form values")
     size = document.getElementById("form1_size").value
@@ -60,13 +59,10 @@ function updateBox(){
     out = document.getElementById("resultt")
     out.innerHTML = JSON.stringify(my_candy_box);
 }
-
-
 var  my_candy_box={};
 function selectBox (){
     my_candy_box={};
     console.log("Getting form values")
-    
     dark = document.getElementById("form1_age").checked
     nuts = document.getElementById("form1_nick").checked
     chewy = document.getElementById("form1_chewy").checked
